@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-G1213Bowen-2202.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213Bowen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenCharacter.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenGameMode.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenHUD.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenProjectile.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\PlayerLevelWidget.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213Bowen.init.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenCharacter.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenGameMode.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenHUD.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\G1213BowenProjectile.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\PlayerLevelWidget.gen.cpp.obj"
+"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\Default.rc2.res"
+/OUT:"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\UE4Editor-G1213Bowen-2202.lib"
+/INCLUDE:IMPLEMENT_MODULE_G1213Bowen

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\G1213Bowen.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{3232321B-241C-46C7-BF24-B888FB18C768}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\G1213Bowen.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\G1213BowenEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9180BEEB-F217-4216-97EC-E1FD725758A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\G1213Bowen">
+      <UniqueIdentifier>{A2F3E6D5-6162-431C-8767-608E8E799E7B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\G1213Bowen\G1213Bowen.Build.cs">
+      <Filter>Source\G1213Bowen</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\G1213Bowen\G1213Bowen.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Bowen\G1213Bowen.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Bowen\G1213BowenCharacter.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Bowen\G1213BowenCharacter.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Bowen\G1213BowenGameMode.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Bowen\G1213BowenGameMode.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Bowen\G1213BowenHUD.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Bowen\G1213BowenHUD.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\G1213Bowen\G1213BowenProjectile.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\G1213Bowen\G1213BowenProjectile.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\G1213Bowen\PlayerLevelWidget.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\UnluckTrap.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\UnluckyTrap.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\UnluckTrop.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\Candy.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\SupriseBox.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\G1213Bowen\BlackHole.h">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\G1213Bowen\PlayerLevelWidget.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\UnluckTrap.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\UnluckyTrap.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\UnluckTrop.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\Candy.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\SupriseBox.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\G1213Bowen\BlackHole.cpp">
+      <Filter>Source\G1213Bowen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
