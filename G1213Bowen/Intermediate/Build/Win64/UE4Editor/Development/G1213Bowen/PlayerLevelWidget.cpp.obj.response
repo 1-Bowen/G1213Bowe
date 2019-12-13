@@ -498,9 +498,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 /I Runtime\PropertyPath\Public
 /I Runtime\PropertyPath
-/I "D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Inc\G1213Bowen"
-/I "D:\Unreal Project\G1213Bowen\Source"
-/I "D:\Unreal Project\G1213Bowen\Source\G1213Bowen"
+/I "D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Inc\G1213Bowen"
+/I "D:\Unreal Project\FinalExam\G1213Bowen\Source"
+/I "D:\Unreal Project\FinalExam\G1213Bowen\Source\G1213Bowen"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -533,12 +533,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal Project\G1213Bowen\Source\G1213Bowen\PlayerLevelWidget.cpp"
-/FI"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\Definitions.G1213Bowen.h"
-/Fo"D:\Unreal Project\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\PlayerLevelWidget.cpp.obj"
+/FI"D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\G1213BowenEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Unreal Project\FinalExam\G1213Bowen\Source\G1213Bowen\PlayerLevelWidget.cpp"
+/FI"D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\Definitions.G1213Bowen.h"
+/Fo"D:\Unreal Project\FinalExam\G1213Bowen\Intermediate\Build\Win64\UE4Editor\Development\G1213Bowen\PlayerLevelWidget.cpp.obj"
 /TP
 /GR-
 /W4

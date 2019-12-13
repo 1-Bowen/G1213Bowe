@@ -33,6 +33,51 @@ void ABlackHole::Tick(float DeltaTime)
 	
 }
 
+void ABlackHole::CountDown()
+{
+	if (this->GetActorLocation().Distance(this->GetActorLocation(), Player->GetActorLocation()) <=Distance)
+	{
+		Red = 1; 
+		IsInRadius = true;
+		FTimerHandle TimeHandle;
+		GetWorld()->GetTimerManager().SetTimer(TimeHandle, this, &ABlackHole::Boom, Time, true);
+		GEngine->AddOnScreenDebugMessage(1, 5, FColor::Red, TEXT("START count down"));
+
+	}
+	else
+	{
+		IsInRadius = false;
+
+	}
+
+}
+
+void ABlackHole::Boom()
+{
+	auto player = Cast<AG1213BowenCharacter>(Player);
+	if (player != nullptr)
+	{
+		GEngine->AddOnScreenDebugMessage(1, 5, FColor::Emerald, TEXT("BOOM"));
+		Seconds--;
+		if (Seconds < 0)
+		{
+			if (IsInRadius)
+			{
+				player->GetCharacterMovement()->AddImpulse(player->GetActorForwardVector() * 250000);
+			}
+			//particle systems to popup;
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Explosion, GetTransform());
+			Destroy();
+		}
+		//Player->Hp -= Damage;
+	}
+}
+
+void ABlackHole::UpdateMaterial()
+{
+	BlackHoleMaterial->SetScalarParameterValue(TEXT("Red"), Red);
+}
+
 
 
 
